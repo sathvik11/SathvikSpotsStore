@@ -1,10 +1,36 @@
 <html>
+<head><title>Tennis</title></head>
 <body bgcolor="#E4F0F8">
-<h1><font color="#000000">Tennis</font></h1>
-<h2>
-<ul>
-<li>Digital Circuits</li> <li>Signals and Systems</li> <li>Digital Communication</li>
-</ul>
-</h2>
+<center><font color="black"><h1>Tennis equipment</h1></font></center>
+<br>
+<table align="center">
+<tr>
+<td>Items</td>
+<td>
+<select >
+<option value="select the item" selected>Select the item
+<option value="Racket">Racket
+<option value="Tennis Ball">Tennis Ball
+<option value="Tennis shoes">Tennis shoes
+<option value="Wrist band">Wrist band
+<option value="Head band">Head band
+</select>
+</td></tr>
+<tr>
+<td>Quantity</td>
+<td><input type="text" id="q"></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<form method=post action="order.html">
+<input type="submit" value=ok />
+</form>
+</td>
+</tr>
+</table>
+<center>
+<pre> Cost of one item is"1500" + shipping "100" </pre>
+</center>
 </body>
 </html>
